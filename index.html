@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Year Progress Bar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="date-time" id="date-time"></div>
+
+    <div class="progress-wrapper">
+      <div class="progress-container">
+        <div class="quarter-markers">
+          <div class="marker" style="left: 24.7%;"></div>
+          <div class="marker" style="left: 49.6%;"></div>
+          <div class="marker" style="left: 74.3%;"></div>
+        </div>
+        <div class="progress-bar" id="progress-bar"></div>
+        <div class="progress-text" id="progress-text"></div>
+      </div>
+
+      <div class="quarter-labels">
+        <span style="left: 0%;">Q1</span>
+        <span style="left: 25%;">Q2</span>
+        <span style="left: 50%;">Q3</span>
+        <span style="left: 75%;">Q4</span>
+      </div>
+    </div>
+
+    <div class="extra-info">
+      <span id="days-left"></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
