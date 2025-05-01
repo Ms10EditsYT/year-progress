@@ -20,4 +20,4 @@ The progress bar shows the percentage of the year that has passed, based on the 
 
 1. Clone this repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/year-progress-bar.git
+   git clone https://github.com/Ms10EditsYT/year-progress.git
